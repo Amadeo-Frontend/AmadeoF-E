@@ -1,7 +1,6 @@
 ##Oi!!!Eu sou o Amadeo  👋
 
 💻Estou estudando Front-end...
-🤓Assistindo aula sobre web desing responsivo...
 😊Estou gostando muito de aprender e criar com HTML e CSS.
 <div align="center">
   <a href="https://github.com/AmadeoF-E">
