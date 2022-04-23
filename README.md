@@ -16,7 +16,6 @@
   </div>
   
   ##
-  
-     ![Snake animation](https://github.com/AmadeoF-E/AmadeoF-E/blob/output/github-contribution-grid-snake.svg)
+
   
   
