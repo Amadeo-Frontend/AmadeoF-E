@@ -1,0 +1,40 @@
+*
+html{
+    overflow: overlay;
+}
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 10PX;
+    width: 100%;
+    color: whitesmoke;
+    overflow-x:hidden;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 18px;
+}
+h1 {
+    background-color: rgb(45, 96, 217);
+    text-shadow: 1px 1px 3px #0c0c0c;
+    color: #5bbe42;
+}
+nav a:hover {
+    color: #5bbe42;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer {
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(45, 96, 217);
+}
+.container {
+    padding: 0 50px;
+}

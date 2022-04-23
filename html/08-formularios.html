@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Amadeo</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/form.css">
+	</head>
+	<body>
+
+		
+
+		<section>
+
+			<div class="container"> 
+				<nav>
+				<ul>
+					<li>
+						<a href="08-sobre mim.html" rel="noopener noreferrer">Me conheca</a>
+					</li>
+					<li>
+						<a href="exercicio-08.html" rel="noopener noreferrer">Coffebreak</a>
+					</li>    
+					<li>
+						<a href="08-formatacao-de-texto.html" rel="noopener noreferrer">Formatação de textos</a>
+					</li>   
+					<li>
+						<a href="08-tabelas.html" rel="noopener noreferrer">Tabelas</a>
+					</li>    
+				</ul>
+			</nav>
+			<header>
+			<h1>Curso Front-end - HTML</h1>
+		    </header>
+
+			<article class="center">
+
+				<h2>Contato</h2>
+				<p>Preencha os campos abaixo</p>
+
+				<form method="post">
+					
+					<div class="campo">
+						<label for="nome"><strong>Nome</strong></label>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+					</div>
+					
+					<div class="campo">
+						<label for="sobrenome"><strong>Sobrenome</strong></label>
+						<input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu nome" required>
+					</div>
+				
+				    </fieldset>
+
+					<div class="campo">
+						<label for="email"><strong>E-mail</strong></label>
+						<input type="email" name="email" id="email" placeholder="Digite seu email" required>
+					</div>
+
+					<div class="campo">
+						<label for="mensagem">Mensagem</label>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</div>
+
+					<div class="campo">
+						<p>
+							<label>Qual linguagem você prefere?</label>
+							<input type="radio" name="linguagens" value="html"> HTML
+							<input type="radio" name="linguagens" value="css"> CSS
+							<input type="radio" name="linguagens" value="javascript"> JavaScript
+						</p>
+					</div>
+
+					<div class="campo">
+						<p>
+							<label>Quais linguagens você sabe?</label>
+							<input type="checkbox" name="linguagens" value="html"> HTML
+							<input type="checkbox" name="linguagens" value="css"> CSS
+							<input type="checkbox" name="linguagens" value="javascript"> JavaScript
+						</p>
+					</div>
+
+					<div>
+						<button class="botao" type="submit" onsubmit="">Concluído</button> 
+					</div>
+					
+
+				</form>
+
+				
+				
+			</article>
+
+
+		</section>
+
+		<footer>
+			<footer style="color:#5BBE42">Desenvolvido por Amadeo Bon</footer>
+		</footer>
+		</body>
+	</div>
+	</body>
+</html>

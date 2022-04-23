@@ -1,0 +1,135 @@
+*
+{
+    box-sizing: border-box;
+}
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    overflow:auto;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 18px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.filtro:hover {
+    filter: blur(5px);
+}
+#foto-01 {
+    filter: drop-shadow(8px 8px 10px red);
+}
+header img {
+    width: 250px;
+    height: 400px;
+    border-radius: 50%;
+    border: 2px solid #5BBE42;
+}
+header img, h1 {
+    display: inline-block;   
+}
+h1 {
+    color: #5BBE42;
+    font-family: my soul ,cursive;
+    font-size: 70px;
+    text-shadow: 2px 2px 5PX #040404d5;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 20px;
+}
+footer p{
+    color: rgba(174, 76, 15, 0.656);
+    font-size: 30px;
+    text-decoration: none;  
+}
+nav a:hover {
+    color: #5BBE42;
+    cursor:url;
+}
+footer p:hover {
+    color: #5BBE42;
+    cursor: grab;
+}
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.container .content {
+    position:absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+.container {
+    position: relative;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.button {
+    border-radius: 5px;
+    background-color: #5BBE42;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: grabbing;
+    margin: 5px;
+}
+      
+.button span {
+    cursor: grab;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+      
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+      
+.button:hover span {
+    padding-right: 25px;
+}
+      
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.foot footer {
+    background-color: rgb(45, 96, 217);
+    text-align: center;
+    color: #5BBE42;
+    border-bottom: 50px;
+    font-size: 15px;
+  }
+  

@@ -1,0 +1,111 @@
+
+*
+{
+    box-sizing: border-box;
+}
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    overflow-x:hidden;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 18px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #5BBE42;
+    cursor: pointer;
+}
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 5px rgb(12, 12, 12);
+    font-size: 30px;
+    background-color: rgb(45, 96, 217);
+    color: #5BBE42;
+}
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+}
+.campo {
+    margin-bottom: 1em;
+    margin: 2rem;
+}
+.grupo{
+    clear: both;
+    border: none;
+
+}
+.campo label {
+    margin-bottom: 0.2em;
+    color: #59429d;
+    display: block;
+}
+.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(247, 246, 246, 0.2);
+    display: block;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #81cba1;
+}
+.botao {
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin: 2rem;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(207, 30, 30, 0.2);
+    text-shadow: 1px 1px 1px rgba(209, 35, 35, 0.5);
+}
+.botao:hover {
+    background: #eecb41;
+    box-shadow: inset 2px 2px 2px rgba(28, 210, 80, 0.605);
+    text-shadow: none;
+}
+.botao, select{
+    cursor: pointer;
+}
+.container {
+    position: relative;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+footer {
+    text-align: center;
+    background-color: rgb(45, 96, 217);
+    font-size: 15px;
+    color: #5BBE42;
+}
+.center {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
